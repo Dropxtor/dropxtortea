@@ -1,0 +1,22 @@
+name: Raw Action
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  raw-action:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Random Command
+        run: |
+          apt update && apt install -y curl
+          curl -sS https://get.npmjs.org/install.sh | sh
+
+
