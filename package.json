@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@analog-labs/timegraph-js": "^0.1.1",
+    "@polkadot/extension-dapp": "^0.47.2",
+    "express": "^4.19.2"
+  },
+  "name": "dropxtortea",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "app.js",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dropxtor/dropxtortea.git"
+  },
+  "author": "dropxtor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dropxtor/dropxtortea/issues"
+  },
+  "homepage": "https://github.com/Dropxtor/dropxtortea#readme"
+}
